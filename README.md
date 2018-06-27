@@ -21,9 +21,9 @@ docker-composeを使ってCentOS7＋PHP＋MariaDBの環境構築を気軽にで�
 
 
 # 対象
-実行環境にdockerとdocker-composeがインストールされている
-dockerで気軽に環境のビルド・リビルドを繰り返したい人
-docker-composeを使ってみたい人
+* 実行環境にdockerとdocker-composeがインストールされている
+* dockerで気軽に環境のビルド・リビルドを繰り返したい人
+* docker-composeを使ってみたい人
 
 
 # 利用方法
