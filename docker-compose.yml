@@ -1,0 +1,13 @@
+version: '2'
+services:
+        web:
+                build: ./docker
+                #build: docker
+                ports: 
+                        - "8081:80"
+                        - "8082:8080"
+                        - "8022:22"
+                volumes:
+                        - ./data-html:/var/www/html
+                working_dir: /var/www/html
+                privileged: true
